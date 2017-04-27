@@ -10,17 +10,25 @@ googleAnalytics = ""
 [params]
     # Sets the meta tag description, usually reserved for the main page
     description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+
     # This will appear on the top left of the navigation bar
     navbarTitle          = "Future Imperfect"
+
+    # RSS icon that appear on the sidebar, next to the social media buttons
+    rssAppearAtTop       = true
+    rssAppearAtBottom    = true
+
     # Social media buttons that appear on the sidebar
     socialAppearAtTop    = true
     socialAppearAtBottom = true
+
     # set this to the section name if section is not post
     viewMorePostLink     = "/blog/"
 
-# Optional Params
+    # Optional Params
     categoriesByCount    = true
     includeReadingTime   = true
+
     # The set of favicons used are based on the write-up from this link:
     # https://github.com/audreyr/favicon-cheat-sheet
     # Please see the favicon partial template for more information
