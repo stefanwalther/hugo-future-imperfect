@@ -20,7 +20,7 @@
                 </header>
             {{ end }}
             <ul class="icons">
-              {{ if and (.RSSLink) (.Site.Params.rssAppearAtTop) }}
+                {{ if and (.RSSLink) (.Site.Params.rssAppearAtTop) }}
                     <li><a href="{{ .RSSLink }}" type="application/rss+xml"
                         target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 {{ end }}
