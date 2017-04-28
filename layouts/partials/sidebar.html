@@ -82,6 +82,16 @@
             </ul>
         </section>
 
+    <!-- Projects -->
+    <section>
+      <h3>Other Projects & Sites</h3>
+      {{ range $.Site.Data.links }}
+      <ul>
+        {{ partial "sidebar-links" . }}
+      </ul>
+      {{ end }}
+    </section>
+
     <!-- This if statement only applies if someone goes to the /categories url -->
     <!-- Otherwise this section is shown for all other links -->
     {{ if ne ($.Scratch.Get "showCategories") false }}
