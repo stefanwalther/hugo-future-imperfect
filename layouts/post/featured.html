@@ -6,6 +6,10 @@
         {{ partial "img-path" . }}
         {{ $path := $.Scratch.Get "path" }}
 
+        <!-- .Permalink: {{ .Permalink }} -->
+        <!-- path: {{ $path }} -->
+        <!-- .Params.featured: {{ .Params.featured }} -->
+
         <a href="{{ .Permalink }}" class="image featured">
             <img src="{{ $path }}/{{ .Params.featured }}" alt="{{ .Params.featuredalt }}" />
         </a>
