@@ -1,3 +1,4 @@
+<!-- footer-category.html -->
 <ul class="stats">
     {{ if isset .Params "categories" }}
         {{ $categoryCount := (len .Params.categories) }}
@@ -42,3 +43,4 @@
         <li><a href='{{ add ($.Scratch.Get "categoryUrl") . | urlize }}'>{{ . }}</a></li>
     {{ end }}
 </ul>
+<!--## footer-category.html -->
